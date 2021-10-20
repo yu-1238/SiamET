@@ -3,6 +3,8 @@ This project hosts the code for implementing the SiamET algorithm for visual tra
 
 !!!This article is under review cycle.
 
+run demo.py   you need put a sequences file at /SiamET/your sequences file 
+run my_test .py --datasets /you own datasets path
 The model link is here:https://drive.google.com/file/d/1v-15AUcUE15vgizlILgo5MrG-zz9CVoW/view?usp=sharing
 The results of the four public data sets are in here
 https://drive.google.com/file/d/1sOXROVByH02oTlVjv4zPzDWE9SycD_0w/view?usp=sharing
