@@ -46,7 +46,7 @@ def main(et_path0, et_path1, et_path2):
 
     # load config
     # dataset_root = '/media/xx/新加卷/' +
-    dataset_root = '/media/xx/新加卷2/'+args.dataset
+    dataset_root = args.dataset
     #  tracker
     model_path = '../models/OTB100/model.pth'
 
@@ -58,7 +58,7 @@ def main(et_path0, et_path1, et_path2):
     dataset = DatasetFactory.create_dataset(name=args.dataset,
                                             dataset_root=dataset_root,
                                             load_img=False)
-    # 算法的名字
+
     model_name = tracker.name
 
     if args.dataset in ['VOT2016', 'VOT2018', 'VOT2019']:
