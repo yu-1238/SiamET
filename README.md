@@ -4,7 +4,7 @@ SiamET
 This project hosts the code for implementing the SiamET algorithm for visual tracking, as presented in our paper：
 SiamET: A Siamese based visual tracking network (submitted to Applied Intelligence)
 
-!!!This article is under review cycle.
+This article was accepted.
 
 Place a sequence under /SiamET/ directory
 
